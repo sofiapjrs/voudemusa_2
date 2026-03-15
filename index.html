@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vou de Musa | Moda Feminina</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="header-conteudo">
+            <img src="imagens/logo vou de musa 2.png" alt="Logo Vou de Musa" class="logo">
+        </div>
+    </header>
+
+    <main> 
+        <section class="sobre">
+            <h1>Moda que combina com a sua personalidade</h1>
+            <p>Descubra roupas que valorizam você em todos os momentos!</p>
+            <p>Somos uma loja especializada em roupas femininas modernas e acessíveis. Trabalhamos com peças exclusivas para você se sentir linda todos os dias!</p>
+        </section>
+
+        <a class="botao-whatsapp" href="https://wa.me/5551980315102?text=Ol%C3%A1!%20Conheci%20a%20Vou%20de%20Musa%20pelo%20site%20e%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20pe%C3%A7as%20dispon%C3%ADveis." target="_blank" rel="noopener noreferrer"> 
+                Comprar agora! 
+        </a>
+
+        <section class="slider">
+
+            <div class="slides">
+
+                <img src="imagens/Mês do consumidor 3.png" class="slide">
+                <img src="imagens/Mês do consumidor.png" class="slide">
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="beneficios">
+        <h2>Por que escolher a Vou de Musa?</h2>
+        <ul>
+            <li>✔️ Peças selecionadas com alta qualidade</li>
+            <li>✔️ Modelagens que valorizam todos os corpos</li>
+            <li>✔️ Tendências da moda sempre atualizadas</li>
+            <li>✔️ Entrega rápida e segura</li>
+            <li>✔️ Atendimento personalizado</li>
+        </ul>
+        </section>
+
+        <section class="produtos">
+            <h2>🔥 Ofertas Especiais</h2>
+            <p>Até 25% OFF na nova coleção por tempo limitado!</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="imagens/vestido.png" alt="Vestido">
+                    <h3>Vestidos Elegantes</h3>
+                    <p>A partir de R$59,90</p>
+                    <button onclick="comprarProduto('Vestido Elegante')">
+                        Comprar no WhatsApp
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="imagens/conjunto.png" alt="Conjunto">
+                    <h3>Conjuntos Modernos</h3>
+                    <p>A partir de R$49,90</p>
+                    <button onclick="comprarProduto('Conjuntos Modernos')">
+                        Comprar no WhatsApp
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="imagens/bermuda.png" alt="Bermudas">
+                    <h3>Bermudas Casuais</h3>
+                    <p>A partir de R$39,90</p>
+                    <button onclick="comprarProduto('Bermuda Casual')">
+                        Comprar no WhatsApp
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <p id="contador"></p>
+
+        <section class="prova-social">
+            <h2>O que nossas clientes dizem</h2>
+            <p id="depoimento1"></p>
+            <p id="depoimento2"></p>
+
+         </section>
+
+        <hr>
+
+        <section class="contato">
+            <h2>Entre em Contato</h2>
+
+            <h3>Receba novidades e promoções exclusivas</h3>
+            <p>Cadastre-se e ganhe 10% de desconto na sua primeira compra!</p>
+
+            <form id=formulario>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" required>
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <button type="submit">Quero meu desconto!</button>
+            </form>
+
+            <p>Siga no Instagram:
+                <a href="https://instagram.com/voudemusa" target="_blank" rel="noopener noreferrer">@voudemusa</a>
+            </p>
+        </section>
+    </main>     
+
+    <footer>
+        <p>© 2026 Vou de Musa - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
